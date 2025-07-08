@@ -2,7 +2,6 @@
     mdArray:   .word 2, 5, 8
                .word 3, 7, 10
                .word 1, 4, 11
-    
     size:      .word 3
 
 .text 
