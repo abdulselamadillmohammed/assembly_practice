@@ -20,6 +20,7 @@ sumDiagonal:
         li $v0, 0         # sum = 0 
         li $t0, 0         # index i
         li $t3, 4         # word size in bytes
+
         
 sumLoop:
         mul $t1, $t0, $a1   # t1 = i * size (row index * num cols)
