@@ -1,6 +1,5 @@
 .data
     message: .asciiz "The number is less than the other."
-    
  .text
     main:
     addi $t0, $zero, 1
