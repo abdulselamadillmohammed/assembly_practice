@@ -4,7 +4,6 @@
     main:
     addi $t0, $zero, 1
     addi $t1, $zero, 200
-    
     slt $s0, $t0, $t1
     # Is 1 < 200?
     # (yes(True) = 1, no = 0(False))
