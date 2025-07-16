@@ -4,7 +4,6 @@
 .globl main
 main: 
 
-
     # Place values into registers
     addi $t8, $zero, 10 # A = 10
     addi $t9, $zero, 12 # B = 12
