@@ -10,7 +10,6 @@ main:
     # Auto call the function
     gcd_calc:
         beq $t8, $t9, gcd_found # If they are equal then end
-        
         # checker => $s0
         slt $s0, $t8, $t9
         
