@@ -102,7 +102,6 @@ mystery:
 
     # Calculate the final result for this frame: mystery(n-1) + (2n - 1).
     add $v0, $t1, $t0   # $v0 = result. This will be the return value.
-
     # Epilogue: Tear down the stack frame and return to the caller.
     lw $ra, 4($sp)      # Restore the caller's return address from the stack.
     addi $sp, $sp, 8    # Deallocate the stack frame.
